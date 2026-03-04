@@ -33,6 +33,30 @@ This project demonstrates:
 - **Documentation**: Clear, professional technical communication (SOP style).
 - **Modern Development**: Proficiency in Kotlin and REST/JSON integrations.
 
+## 🧪 Testing & Verification (UAT Report)
+
+To ensure "Production Ready" status for Data Centre operations, the following tests were performed on physical hardware (**Samsung Galaxy A16**).
+
+### 1. Primary API & Networking Test
+- **Target**: `8.8.8.8` (Google DNS)
+- **Result**: Successfully resolved ISP (Google LLC) and ASN (15169).
+- **Verification**:
+  ![Google DNS Test](screenshots/test_google_dns.png)
+
+### 2. DNS Resolution Test
+- **Target**: `ixafrica.co.ke`
+- **Result**: Successfully resolved domain to IP and mapped infrastructure.
+- **Verification**:
+  ![iXAfrica Test](screenshots/test_ixafrica_domain.png)
+
+### 3. Error Handling & Validation
+- **Target**: Invalid Input (`non_ip_target`)
+- **Result**: System maintained stability; displayed "Target Unreachable" without crashing.
+- **Verification**:
+  ![Error Handling Test](screenshots/test_error_handling.png)
+
+
+
 ## 🛠 Installation
 1. Clone this repository.
 2. Open in **Android Studio Hedgehog** or newer.
