@@ -43,11 +43,6 @@ To ensure "Production Ready" status for Data Centre operations, the following te
 - **Verification**:
   ![Google DNS Test](screenshots/test_google_dns.png)
 
-### 2. DNS Resolution Test
-- **Target**: `ixafrica.co.ke`
-- **Result**: Successfully resolved domain to IP and mapped infrastructure.
-- **Verification**:
-  ![iXAfrica Test](screenshots/test_ixafrica_domain.png)
 
 ### 3. Error Handling & Validation
 - **Target**: Invalid Input (`non_ip_target`)
